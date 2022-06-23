@@ -49,6 +49,7 @@ const DeckOfCards = () => {
                              return (
                                  <li key={index}>
                                      <img src={card.image} alt={card.value}/>
+                                     <p>{card.value} {addCard.suit}</p>
                                  </li>
                              )
                          })
